@@ -29,7 +29,7 @@ for item in list(FW['DATE']):
 #scenes per day in some cases. how to choose?
 #S2[S2['DATE'] == csv_data[1][3]]
 #%%
-csv_data
+print('These are my edits today')
 #%%
 Nearest_DF = pd.DataFrame(csv_data)
 Nearest_DF.columns = ['FW', 'S1', 'S1_Num', 'S2', 'S2_Num', 'S2_Title']
